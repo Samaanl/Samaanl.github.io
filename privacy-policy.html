@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Saver - Privacy Policy</title>
+    <style>
+        :root {
+            --primary-color: #4a6cf7;
+            --primary-dark: #3a56e0;
+            --text-color: #333333;
+            --text-secondary: #6b7280;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+            --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+            --border-radius: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
+                Ubuntu, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        header .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            width: 48px;
+            height: 48px;
+            margin-right: 15px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .policy-content {
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            font-style: italic;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .contact {
+            background-color: #f0f4ff;
+            border-left: 4px solid var(--primary-color);
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .policy-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="images/icon48.png" alt="Tab Saver Logo">
+            <div>
+                <h1>Tab Saver Privacy Policy</h1>
+                <p>How we handle your data</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="policy-content">
+            <h2>Introduction</h2>
+            <p>This Privacy Policy explains how Tab Saver ("we", "our", or "extension") collects, uses, and protects any
+                information when you use our browser extension. We are committed to ensuring that your privacy is
+                protected and that you understand how your data is being used.</p>
+
+            <h2>Information We Collect</h2>
+            <p>Tab Saver is designed to save and restore your browsing sessions with minimal data collection. We only
+                collect the following information:</p>
+            <ul>
+                <li><strong>Tab URLs</strong>: We save the URLs of tabs you choose to save in a group</li>
+                <li><strong>Tab Titles</strong>: We save the titles of your tabs to help you identify them</li>
+                <li><strong>Favicons</strong>: We save favicon URLs to display tab icons in the interface</li>
+                <li><strong>Scroll Positions</strong>: We save the scroll position of web pages to restore your exact
+                    place when reopening tabs</li>
+                <li><strong>User Preferences</strong>: We save your extension preferences, like dark/light mode settings
+                </li>
+            </ul>
+            <p>All of this information is necessary for the core functionality of the extension — saving and restoring
+                your tab groups with the proper context.</p>
+
+            <h2>How We Use Your Information</h2>
+            <p>The information we collect is used exclusively for:</p>
+            <ul>
+                <li>Saving your tab groups for later retrieval</li>
+                <li>Restoring your saved tabs when you request them</li>
+                <li>Maintaining the proper scroll position when tabs are restored</li>
+                <li>Preserving your extension preferences</li>
+            </ul>
+            <p>We do not analyze, process, or use your data for any other purposes beyond providing the Tab Saver
+                functionality.</p>
+
+            <h2>Where Your Data is Stored</h2>
+            <p>All data collected by Tab Saver is stored <strong>locally in your browser</strong> using the Chrome
+                Storage API. Your data:</p>
+            <ul>
+                <li>Never leaves your device</li>
+                <li>Is not transmitted to any servers</li>
+                <li>Is not shared with third parties</li>
+                <li>Is only accessible from your browser</li>
+            </ul>
+            <p>This means that your browsing data stays private and remains under your control at all times.</p>
+
+            <h2>Data Retention</h2>
+            <p>Tab Saver retains your saved tab groups and preferences as long as the extension is installed. If you
+                remove the extension, all stored data will be deleted. You can also manually delete specific tab groups
+                from within the extension interface.</p>
+
+            <h2>Your Rights</h2>
+            <p>Since all data is stored locally on your device, you have complete control over your data. You can:</p>
+            <ul>
+                <li>View all saved tab groups through the extension interface</li>
+                <li>Delete any tab group at any time</li>
+                <li>Clear all data by uninstalling the extension</li>
+            </ul>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Any changes will be posted in an updated version of
+                the extension, and the "Last Updated" date at the bottom of this Privacy Policy will be revised.</p>
+
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions about this Privacy Policy or the Tab Saver extension, please contact us at:
+                    <a href="mailto:your-email@example.com">acccreddit@gmail.com</a>
+                </p>
+            </div>
+
+            <p class="last-updated">Last Updated: April 29, 2025</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Tab Saver &copy; 2025. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
